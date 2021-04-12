@@ -1,0 +1,13 @@
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #636a72;
+  width: 100vw;
+  height: 50px;
+}
+
+.links {
+  font-size: 25px;
+  padding: 10px;
+
+}
