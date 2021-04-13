@@ -4,6 +4,74 @@
   height: 100vh;
   width: 100vw;
   font-family: 'Amatic SC', cursive;
-  padding-top: 100px;
+  padding: 100px 60px 40px 60px;
   font-size: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
+
+.proj-container {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.proj-img {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+  align-self: center;
+}
+.desc {
+  font-size: 30px;
+}
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 30px 20px 30px;
+}
+.code {
+  width: 120px;
+}
+.site {
+  width: 120px;
+}
+
+/* .striva-container {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.striva-img {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+  align-self: center;
+}
+.striva-desc {
+  font-size: 30px;
+}
+
+.avy-container {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.avy-img {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+  align-self: center;
+}
+.avy-desc {
+  font-size: 30px;
+} */

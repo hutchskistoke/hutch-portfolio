@@ -7,4 +7,6 @@ a {
 }
 body {
   background-color: #F0F3F7;
+  max-width: 100%;
+  overflow-x: hidden;
 }
