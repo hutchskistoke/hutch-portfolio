@@ -1,13 +1,20 @@
 .nav-container {
   display: flex;
-  justify-content: flex-end;
-  background-color: #636a72;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #15616d;
   width: 100vw;
-  height: 50px;
+  height: 100px;
 }
 
 .links {
-  font-size: 25px;
-  padding: 10px;
-
+  font-size: 35px;
+  color: #ef8354;
+  font-family: 'Amatic SC', cursive;
+  padding-right: 50px;
 }
+
+.logo {
+  padding-left: 40px;
+}
+

@@ -1,8 +1,9 @@
 
+import '../CSS/Portfolio.css'
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className='portfolio-container'>
       <div>Projects</div>
     </div>
   )

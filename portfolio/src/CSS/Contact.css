@@ -1,0 +1,57 @@
+
+.contact-container {
+  background-color: #ffecd1;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Amatic SC', cursive;
+  padding-top: 50px;
+}
+
+.connect-title {
+  font-size: 100px;
+  padding-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-size: 25px;
+}
+input {
+  width: 400px;
+  height: 35px;
+  margin-bottom: 10px;
+  margin-left: 8px;
+}
+textarea {
+  width: 403px;
+  height: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 8px;
+}
+
+.message-tag {
+  display: flex;
+  align-self: center;
+}
+
+.contact-submit {
+  width: 100px;
+  height: 30px;
+  align-self: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  background-color: #15616d;
+  color: #ef8354;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.contact-submit:hover {
+  width: 110px;
+  height: 35px;
+  font-size: 26px;
+}
