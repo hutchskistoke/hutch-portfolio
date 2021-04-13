@@ -8,6 +8,7 @@ import Portfolio from './Screens/Portfolio.jsx'
 import About from './Screens/About'
 import Contact from './Screens/Contact'
 import Resume from './Screens/Resume'
+import Footer from './Screens/Footer'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Home />
         </Route>
       </Switch>
+      <Footer />
       
     </div>
   );

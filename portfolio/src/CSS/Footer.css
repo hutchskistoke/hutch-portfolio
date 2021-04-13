@@ -1,0 +1,16 @@
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  background-color: #15616d;
+  width: 100vw;
+  height: 60px;
+  position: sticky;
+}
+.linkedin {
+  height: 58px;
+}
+.github {
+  padding-top: 5px;
+  height: 50px;
+}
