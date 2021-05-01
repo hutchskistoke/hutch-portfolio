@@ -45,5 +45,10 @@
   background-color: #15616d;
   color: #ef8354;
   border-radius: 3px;
+  /* transition: box-shadow .3s; */
 }
 
+.code:hover,
+.site:hover {
+  box-shadow: 0 10px 6px -6px black;
+}
