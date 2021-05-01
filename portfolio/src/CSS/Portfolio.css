@@ -37,9 +37,13 @@
   justify-content: space-around;
   padding: 20px 30px 20px 30px;
 }
-.code {
-  width: 120px;
-}
+.code,
 .site {
   width: 120px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  background-color: #15616d;
+  color: #ef8354;
+  border-radius: 3px;
 }
+
