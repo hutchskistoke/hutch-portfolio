@@ -1,22 +1,45 @@
-.nav-container {
+
+.container-fluid {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: #15616d;
   width: 100vw;
   height: 100px;
+}
+.bg-light {
+  background-color: #15616d !important;
+}
+
+#navbarSupportedContent {
+  justify-content: right !important;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(239, 131, 84, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  border: none;
+}
+
+.navbar-nav {
+  text-align: right;
+  background-color: #15616d;
 }
 
 .links {
   font-size: 35px;
   color: #ef8354;
   font-family: 'Amatic SC', cursive;
-  padding-right: 50px;
+  padding-right: 30px;
+}
+.links:hover {
+  color: currentColor;
 }
 
 .logo {
+  height: 100px;
   padding-left: 40px;
 }
 .logo-pic {
-  height: 250px;
+  margin-top: -45px;
+  width: 200px;
 }
